@@ -272,20 +272,24 @@ ul.list-menu li {
   position: relative;
   left: 140px;
   margin-right: 34px;
+  -moz-transform: rotate(40deg);
   transition: all 0.5s ease;
 }
 
-/* line 187, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 .section-1 .Welcome:hover {
   transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
 }
 
-/* line 191, ../sass/style.scss */
+/* line 195, ../sass/style.scss */
 .section-1 span.Welcome.bg {
   background-color: rgba(97, 225, 32, 0.4);
 }
 
-/* line 195, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .section-1 h1 {
   font-size: 6.2rem;
   font-family: fantasy;
@@ -293,12 +297,12 @@ ul.list-menu li {
   margin-bottom: 100px;
 }
 
-/* line 202, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .section-1 h1:hover {
   font-weight: bold;
 }
 
-/* line 206, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 .section-1:after {
   content: "";
   background: rgba(26, 163, 217, 0.9);
@@ -310,12 +314,12 @@ ul.list-menu li {
   z-index: 0;
 }
 
-/* line 217, ../sass/style.scss */
+/* line 221, ../sass/style.scss */
 .section-2 {
   background-color: #eee;
 }
 
-/* line 221, ../sass/style.scss */
+/* line 225, ../sass/style.scss */
 .section .title {
   font-family: 'Montserrat', serif;
   text-transform: uppercase;
@@ -326,7 +330,7 @@ ul.list-menu li {
   position: absolute;
 }
 
-/* line 231, ../sass/style.scss */
+/* line 235, ../sass/style.scss */
 .section-2 nav {
   background-color: #FFFBF5;
   position: absolute;
@@ -338,7 +342,7 @@ ul.list-menu li {
   z-index: 2;
 }
 
-/* line 242, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 .section-2 nav li {
   display: inline-block;
   width: 25%;
@@ -350,23 +354,23 @@ ul.list-menu li {
   padding: 18px 0;
 }
 
-/* line 253, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 .section-2 nav li:hover {
   color: white;
   background: #0099D5;
 }
 
-/* line 258, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .section-2 nav li.left:hover {
   border-top-left-radius: 8px;
 }
 
-/* line 262, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .section-2 nav li.right:hover {
   border-top-right-radius: 8px;
 }
 
-/* line 266, ../sass/style.scss */
+/* line 270, ../sass/style.scss */
 .blogContents {
   position: absolute;
   top: 180px;
@@ -380,7 +384,7 @@ ul.list-menu li {
   border-bottom-right-radius: 8px;
 }
 
-/* line 279, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 article.blogItem {
   width: 90%;
   margin: 60px 5% 0;
@@ -388,7 +392,7 @@ article.blogItem {
   float: left;
 }
 
-/* line 286, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 section.blogContent {
   font-size: 1.1rem;
   line-height: 18px;
@@ -397,7 +401,7 @@ section.blogContent {
   font-weight: lighter;
 }
 
-/* line 294, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 button.redadMore {
   float: right;
   width: 80px;
@@ -411,12 +415,12 @@ button.redadMore {
   cursor: pointer;
 }
 
-/* line 307, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .slide.fp-slide.fp-table {
   position: relative;
 }
 
-/* line 311, ../sass/style.scss */
+/* line 315, ../sass/style.scss */
 .blogs {
   position: absolute;
   top: 180px;
@@ -425,19 +429,19 @@ button.redadMore {
   bottom: 30px;
 }
 
-/* line 319, ../sass/style.scss */
+/* line 323, ../sass/style.scss */
 .fp-slidesNav.bottom {
   bottom: 30px;
 }
 
-/* line 323, ../sass/style.scss */
+/* line 327, ../sass/style.scss */
 .blogImgWrapper {
   position: absolute;
   width: 100px;
   height: 100%;
 }
 
-/* line 329, ../sass/style.scss */
+/* line 333, ../sass/style.scss */
 img.blogImg {
   width: 100px;
   height: 120px;
@@ -445,12 +449,12 @@ img.blogImg {
   transition: all 0.5s ease;
 }
 
-/* line 336, ../sass/style.scss */
+/* line 340, ../sass/style.scss */
 img.blogImg:hover {
   transform: scale(1.1, 1.1);
 }
 
-/* line 340, ../sass/style.scss */
+/* line 344, ../sass/style.scss */
 span.blogName {
   font-size: 2rem;
   color: #0099D5;
@@ -459,7 +463,7 @@ span.blogName {
   border-bottom: 1px dashed gray;
 }
 
-/* line 348, ../sass/style.scss */
+/* line 352, ../sass/style.scss */
 span.date {
   float: right;
   font-size: 0.9rem;
@@ -469,24 +473,24 @@ span.date {
   margin-top: 18px;
 }
 
-/* line 357, ../sass/style.scss */
+/* line 361, ../sass/style.scss */
 .blogContentWrapper {
   display: inline-block;
   margin: 0px 0px 0px 120px;
   border-bottom: 1px dashed gray;
 }
 
-/* line 363, ../sass/style.scss */
+/* line 367, ../sass/style.scss */
 .blogContentWrapper .blogInfo {
   width: 100%;
 }
 
-/* line 367, ../sass/style.scss */
+/* line 371, ../sass/style.scss */
 .section-3 {
   background-color: #eee;
 }
 
-/* line 371, ../sass/style.scss */
+/* line 375, ../sass/style.scss */
 .mail {
   position: absolute;
   top: 100px;
@@ -495,7 +499,7 @@ span.date {
   bottom: 30px;
 }
 
-/* line 379, ../sass/style.scss */
+/* line 383, ../sass/style.scss */
 .section-3 ul {
   width: 34%;
   margin: 0px 8%;
@@ -503,7 +507,7 @@ span.date {
   vertical-align: top;
 }
 
-/* line 387, ../sass/style.scss */
+/* line 391, ../sass/style.scss */
 .section-3 textarea {
   border: 1px solid #ccc;
   border-radius: 3px;
@@ -517,7 +521,7 @@ span.date {
   background-color: #FFFBF5;
 }
 
-/* line 400, ../sass/style.scss */
+/* line 404, ../sass/style.scss */
 .section-3 input {
   width: 96%;
   height: 50px;
@@ -531,19 +535,19 @@ span.date {
   background-color: #FFFBF5;
 }
 
-/* line 413, ../sass/style.scss */
+/* line 417, ../sass/style.scss */
 .section-3 .submit {
   position: absolute;
   width: 100%;
 }
 
-/* line 418, ../sass/style.scss */
+/* line 422, ../sass/style.scss */
 .section-3 .submit input:hover {
   background-color: #FFFBF5;
   color: #0099D5;
 }
 
-/* line 423, ../sass/style.scss */
+/* line 427, ../sass/style.scss */
 .section-3 .submit input {
   width: 88%;
   padding: 0 0;
@@ -553,7 +557,7 @@ span.date {
   background-color: #ccc;
 }
 
-/* line 432, ../sass/style.scss */
+/* line 436, ../sass/style.scss */
 .footer {
   position: absolute;
   left: 60px;

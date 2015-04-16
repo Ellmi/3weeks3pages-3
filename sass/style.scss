@@ -186,6 +186,9 @@ ul.list-menu li {
 
 .section-1 .Welcome:hover{
 	transform: rotate(40deg);
+	-moz-transform: rotate(40deg);
+	-webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg); 
 }
 
 .section-1 span.Welcome.bg {
