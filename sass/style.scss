@@ -150,6 +150,7 @@ ul.list-menu li {
 	background-position-x: 300px;
 	-webkit-animation:section1 45s linear infinite;
 	animation:section1 45s linear infinite;
+	-moz-animation:section1 45s linear infinite;
 }
 
 @-webkit-keyframes section1 
@@ -172,6 +173,8 @@ ul.list-menu li {
 	margin: 100px 70px;
 	z-index: 1;
 	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
 }
 
 .section-1 .Welcome {
@@ -182,6 +185,8 @@ ul.list-menu li {
 	left: 140px;
 	margin-right: 34px;
 	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
 }
 
 .section-1 .Welcome:hover{
